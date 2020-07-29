@@ -1,0 +1,66 @@
+:root {
+  --link: #A7F205;
+  --black: #000;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Neue Haas Unica', 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 500;
+    line-height: 1em;
+
+    padding: 50px;
+  }
+
+  a:active,
+  a:hover {
+  outline: 0;
+  }
+
+  header, main {
+    text-align: center;
+  }
+
+  h1 {
+      font-size: 25px;
+      padding-bottom: 20px;
+      font-weight: normal;
+  }
+
+  h2 {
+    
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 20px;
+
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+
+  .title {
+    padding-bottom: 10px;
+  }
+
+  a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+  }
+
+   a:hover {
+    text-decoration: underline;
+    color: var(--link);
+  } 
+
